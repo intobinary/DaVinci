@@ -63,7 +63,7 @@ Written for -- www.davinci.intobinary.org
 	/*** END DECORATION ***/
 		
 	/*** ANIMATIONS ***/
-		
+		.header-logo-img,.header-logo-title{animation:animate_logo 1s infinite alternate;}@keyframes animate_logo{from{transform:scale(1);}to{transform:scale(0.95);}}
 	/*** END ANIMATIONS ***/
 		
 	/*** BETAs ***/
@@ -71,6 +71,6 @@ Written for -- www.davinci.intobinary.org
 	/*** BETAs ***/
 		
 	/*** TO DELETE ***/
-		
+		.museum-frame-art-img{//visibility:hidden !important;}
 	/*** TO DELETE ***/
 		/*===END CUSTOM===*/
