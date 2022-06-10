@@ -1,0 +1,81 @@
+/*===
+Into Binary (https://davinci.intobinary.org)
+&copy; Coryright 2022 Into Binary. All rights reserved.
+Written for -- www.davinci.intobinary.org
+===*/
+
+
+/*=== LIBRARIES ===*/
+/*=== END LIBRARIES ===*/
+
+/*=== CUSTOM ===*/
+/*== [reset]==*/
+	/*** RESET ***/
+		*{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-family:inherit;vertical-align:baseline;font-size:1em;font-style:normal;-webkit-font-smoothing:antialiased;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;user-select:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;tap-highlight-color:transparent;-webkit-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;}*, *::before, *::after{-webkit-transition:.5s;-box-transition:.5s;-o-transition:.5s;transition:.5s;}:hover,:active,:focus{outline:0 !important;}html, body{min-height:100%;font-family:sans-serif;font-size:1rem;position:relative;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;padding:0;line-height:1;}article, footer, header, section{display:block;}ol, ul{list-style:none;}a{display:inline-block;text-decoration:none;background-color:transparent;color:initial;}a img{border:none;}a, button, input[type="submit"]{cursor:pointer !important;}button{// background-color:transparent;}img{width:100%;height:auto;}img::selection{fill:none;color:none;display:none;background:none;}input[type="text"], input[type="number"], input[type="search"], input[type="email"], textarea{text-align:left;max-width:100%;}input[type="checkbox"], input[type="radio"]{display:none;}input[type="submit"]{background-color:transparent;}label{display:inline;}textarea{resize:vertical;}
+	/*** END RESET ***/
+		/*== [DAVINCI -- Alphazet and 'The Robe']==*/
+/*==https://davinci.intobinary.org/alphazet-and-the-robe==*/
+	/*** CANCEL ***/
+		
+	/*** END CANCEL ***/
+		
+	/*** Z-INDEXES ***/
+		.museum-frame-art-bg{position:relative;z-index:10;}.museum-frame-art-img{position:relative;z-index:20;}.menu{position:relative;z-index:30;}.header-logo{position:relative;z-index:40;}
+	/*** END Z-INDEXES ***/
+		
+	/*** COLORS ***/
+		body, html{background-color:#eee !important;}
+	/*** END COLORS ***/
+		
+	/*** FONTS ***/
+		@font-face{font-family:"OCR A";src:url("https://davinci.intobinary.org/assets/fonts/OCR-A-extended/ocraext.ttf");/*src:url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.eot") format("embedded-opentype"),url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.woff2") format("woff2"),url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.woff") format("woff"),url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.ttf") format("trutype"),url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.svg") format("svg");*/}body{font-family:"OCR A", serif;}.header-logo-title{font-family:"Arial Black", sans-serif;}.header-logo-title{font-size:1em;} .header-logo,.museum{text-align:center;}.museum-data-title{text-align:center !important;}.header-logo-title{font-weight:bold;}
+	/*** END FONTS ***/
+		
+	/*** MEDIA ***/
+		body{// background-image:url("https://davinci.intobinary.org/assets/images/wall-1.png");}body{background-size:cover;background-position:center;}
+	/*** END MEDIA ***/
+		
+	/*** UTILITIES ***/
+		
+	/*** END UTILITIES ***/
+		
+	/*** MIXINS ***/
+		
+	/*** END MIXINS ***/
+		
+	/*** COMMONS ***/
+		
+	/*** END COMMONS ***/
+		
+	/*** COMPONENTS ***/
+		.header{//width:25%;padding:3em;}.header-logo-img{width:auto;height:3em;}.menu{display:flex;}.menu{flex-direction:column;}.menu-content{flex:1;}.menu{position:absolute;right:0;height:100%;//background-color:#B79469;background-color:#C0C3B3;}.menu-spacer{height:9em;}.menu-content{}body, html,.museum{width:100%;height:100%;}.museum{}.museum-frame{}.museum-frame-art{position:relative;display:inline-block;}.museum-frame-art-img{}.museum-frame-art-bg{overflow:hidden;/*position:absolute;top:4em;left:4em;*/position:absolute;top:3em;left:0;right:0;margin:auto;//background-color:#AAA;background-color:#fff;}.museum-data{padding:3em;}.museum-data-title,.museum-data-message{display:inline-block;text-align:justify;box-shadow:0 0 .2em #000;background-color:#000;color:#fff;}.museum-data-title{padding:.5em 1em;font-size:2em;text-transform:uppercase;font-variant:small-caps;}.museum-data-message{padding:1em;margin:3em 0;}.museum-data-message-wrap{display:block;max-height:10em;padding:.5em 1em;overflow-y:auto;}.museum-data-button{padding:.5em;background-color:#C0C3B3;box-shadow:0 0 .2em #000;}.museum-data-button-inner{display:block;width:3em;height:3em;border-radius:50%;background-color:#000;box-shadow:0 0 .5em #000;}.museum-data-button:hover .museum-data-button-inner{//box-shadow:0 0 .5em #000;}.museum-data-button:active .museum-data-button-inner{box-shadow:0 0 .1em #000;}.art-frame{}#artBG,.artBG{//width:55em;overflow:hidden;}/*#artBG div,.artBG-div{//width:5em;//height:5em;float:left;}.artBG-div{//content:attr(data-gradientcolorfrom);//color:attr(data-gradientcolorfrom);color:attr(data-gradientColorFrom);}*/
+	/*** END COMPONENTS ***/
+		
+	/*** PAGES -- Alphazet 'The Cloth' ***/
+		@font-face{font-family:ALPHABETH;src:url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.ttf");/*src:url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.eot") format("embedded-opentype"),url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.woff2") format("woff2"),url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.woff") format("woff"),url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.ttf") format("trutype"),url("https://davinci.intobinary.org/assets/fonts/ALPHABETH.svg") format("svg");*/}.artBG span{font-family:ALPHABETH, 'Arial Black', sans-serif !important;}.artBG{background-color:#060606;}.artBG span{font-size:1rem;font-weight:100;top:0;left:0;color:#f67809;//opacity:.1;opacity:.9;//border:5px solid red !important;}.artBG{//position:relative;overflow:hidden;/*width:15em;height:20em;*/    background-image:url("https://davinci.intobinary.org/assets/images/alphazet.png") !important;   background-size:cover;//background-color:#4A332D;}.artBG span{ padding:0; line-height:1; position:absolute !important;}
+	/*** END PAGES ***/
+		
+	/*** INTERACTIVITY ***/
+		.u-button{cursor:pointer;}.menu{top:-100%;}#chkbx4menu:checked ~ .menu{top:0;}
+	/*** END INTERACTIVITY ***/
+		
+	/*** MEDIA QUERIES ***/
+		@media screen and (max-width:50em){html, body{font-size:14px;}.menu{width:100%;}.museum-frame-art{width:70vw;}#artBG,.artBG{//width:55vw;width:55vw;height:72vw;}/*#artBG div,.artBG-div{width:calc(55vw / 10);height:calc(55vw / 10);}*/}@media screen and (min-width:50em){html, body{font-size:16px;}.museum{display:flex;}.museum{flex-direction:row;}.museum-frame,.museum-data{flex:1;width:50%;}.museum{justify-content:center;align-items:center;}.header{position:absolute;top:0;right:0;}.menu{width:50%;}.museum-frame-art{width:70vh;}#artBG,.artBG{//width:55vh;width:55vh;height:72vh;}/*#artBG div,.artBG-div{width:calc(55vh / 10);height:calc(55vh / 10);}*/}
+	/*** END MEDIA QUERIES ***/
+		
+	/*** DECORATION ***/
+		
+	/*** END DECORATION ***/
+		
+	/*** ANIMATIONS ***/
+		
+	/*** END ANIMATIONS ***/
+		
+	/*** BETAs ***/
+		
+	/*** BETAs ***/
+		
+	/*** TO DELETE ***/
+		
+	/*** TO DELETE ***/
+		/*===END CUSTOM===*/
