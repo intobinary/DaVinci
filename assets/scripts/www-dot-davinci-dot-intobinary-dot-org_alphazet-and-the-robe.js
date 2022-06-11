@@ -27,9 +27,14 @@ Written for -- www.davinci.intobinary.org
 	/*** END EVENTS ***/
 	
 	/*** ACTIONS ***/
-	
- document.querySelector('.js-button').addEventListener('click', glyphIt(fillRatio));
-// document.querySelector('.js-art').addEventListener('click', draw);
+document.querySelector(".js-button").addEventListener("click", function() {
+	main.innerHTML = "";
+	glyphIt(fillRatio);
+});
+document.querySelector(".js-art").addEventListener("click", function() {
+	main.innerHTML = "";
+	glyphIt(fillRatio);
+});
 	/*** END ACTIONS ***/
 	
 	/*** FUNCTIONS ***/
@@ -58,7 +63,7 @@ const ratio = Math.floor(squarePixelage / 30000);
 var fillRatio = 50;
 
 // Give us a random number. We can tell it how high we want to get.
-const rand = max => Math.floor(Math.random() * max);
+var rand = max => Math.floor(Math.random() * max);
 
 // Give the background a random color. I hope it’s a good one.
 /*
@@ -96,25 +101,13 @@ function glyphIt(max) {
       <span style="font-size: ${rand(fillRatio) + 5}rem; font-weight: ${300 + rand(700)}; top: ${rand(height + 300) - 300}px; left: ${rand(width + 300) - 300}px; color: ${colors[rand(colors.length)]}; opacity: ${rand(100) / 100 + 0.1}">${glyph}</span>
     `;
 	*/
-    const glyphElement = `<span style="font-size: ${rand(fillRatio) / 1.75}em; font-weight: ${300 + rand(700)}; position: absolute; top: ${rand(height + 300) - 300}px; left: ${rand(width + 150) - 150}px; color: ${colors[rand(colors.length)]}; opacity: ${rand(100) / 100 + 0.25}">${glyph}</span>`;
+    const glyphElement = `<span style="font-size: ${rand(fillRatio) / 2.5}em; font-weight: ${300 + rand(700)}; position: absolute; top: ${rand(height + 300) - 300}px; left: ${rand(width + 150) - 150}px; color: ${colors[rand(colors.length)]}; opacity: ${rand(100) / 100 + 0.4}">${glyph}</span>`;
     // Here we go, puttin’ it on the page or whatever.
     main.insertAdjacentHTML('beforeend', glyphElement);
   }
 }
 
-// Yup, we’re gonna do this. How many times?
-// This is based on window size (see notes above).
-// You could also replace the parameter with a number, multiple it, divide it, randomize it…. Neat thing about things is you can do many things or nothing.
 glyphIt(fillRatio);
-document.querySelector("button").addEventListener("click", function() {
-	main.innerHTML = "";
-	glyphIt(fillRatio);
-});
-
-// Let’s do this! Ready‽ Oh, we already did.
-
-// Thanks for stopping by! I hope you like this or at least I helped you exercise your eye muscles while you rolled them. I made this on my birthday, more fun than having a party.
-
 	/*** END FUNCTIONS ***/
 
 /*=== END CUSTOM ===*/

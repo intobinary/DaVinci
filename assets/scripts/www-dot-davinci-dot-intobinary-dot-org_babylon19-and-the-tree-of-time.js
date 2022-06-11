@@ -29,7 +29,7 @@ Written for -- www.davinci.intobinary.org
 	/*** ACTIONS ***/
 	
  document.querySelector('.js-button').addEventListener('click', init);
-// document.querySelector('.js-art').addEventListener('click', draw);
+ document.querySelector('.js-art').addEventListener('click', init);
 	/*** END ACTIONS ***/
 	
 	/*** FUNCTIONS ***/
@@ -110,11 +110,11 @@ function render() {
 
 function onResize() {
 //	Stage.width = window.innerWidth / 2;
-	Stage.width = "15em";
+//	Stage.width = "15em";
 //	Stage.height = window.innerHeight / 2;
-	Stage.height = "20em";
+//	Stage.height = "20em";
 
-	render();
+//	render();
 }
 
 // =============
