@@ -67,7 +67,10 @@ Written for -- www.davinci.intobinary.org
 	/*** END ANIMATIONS ***/
 		
 	/*** BETAs ***/
-		
+body, html, .museum {
+	max-width: 1000%;
+	margin: 0 auto !important;
+}
 	/*** BETAs ***/
 		
 	/*** TO DELETE ***/
