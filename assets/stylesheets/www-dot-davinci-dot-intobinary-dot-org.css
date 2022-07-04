@@ -68,7 +68,7 @@ Written for -- www.davinci.intobinary.org
 		
 	/*** BETAs ***/
 body, html, .museum {
-	max-width: 1000%;
+	max-width: 1000% !important;
 	margin: 0 auto !important;
 }
 	/*** BETAs ***/
